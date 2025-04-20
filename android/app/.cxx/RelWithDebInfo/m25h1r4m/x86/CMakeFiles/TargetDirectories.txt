@@ -1,0 +1,2 @@
+C:/Users/Shrey/Downloads/SPIN_AND_WIN/android/app/.cxx/RelWithDebInfo/m25h1r4m/x86/CMakeFiles/edit_cache.dir
+C:/Users/Shrey/Downloads/SPIN_AND_WIN/android/app/.cxx/RelWithDebInfo/m25h1r4m/x86/CMakeFiles/rebuild_cache.dir

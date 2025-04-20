@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "384485835840",
+    "project_id": "spinify-33529",
+    "storage_bucket": "spinify-33529.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384485835840:android:bfb13611b8074a01fc4ba5",
+        "android_client_info": {
+          "package_name": "com.example.spin_to_earn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384485835840-c924o6m1tmo9iup4rq0frq9pjg41tlcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spin_to_earn",
+            "certificate_hash": "3ff9bbf1255cf8e9dd52b31c38a6f6ae1ebc11e8"
+          }
+        },
+        {
+          "client_id": "384485835840-f68g6sffr6c6i6spdjqenh6eoii5rl3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDQS8j57zD3zxCYF-wWQ6Bo6aCx8wM8lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384485835840-f68g6sffr6c6i6spdjqenh6eoii5rl3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

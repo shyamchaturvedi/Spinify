@@ -1,110 +1,34 @@
-🎯 Spin to Earn
-Spin to Earn is a Flutter-based mobile app where users spin a wheel daily to win rewards. It includes Firebase authentication, referral bonuses, ad-based monetization, and a UPI-based withdrawal system.
+# 🎯 Spin to Earn
 
-🚀 Features
-🔐 Firebase Authentication (Google Sign-In)
+**Spin to Earn** is a Flutter-based mobile app where users spin a wheel daily to win rewards. It includes Firebase authentication, referral bonuses, ad-based monetization, and a UPI-based withdrawal system.
 
-🎡 Daily Spin Wheel Reward System
+---
 
-💰 Wallet and Withdrawal Requests
+## 🚀 Features
 
-🎁 Referral & Invite System
+- 🔐 Firebase Authentication (Google Sign-In)
+- 🎡 Daily Spin Wheel Reward System
+- 💰 Wallet and Withdrawal Requests
+- 🎁 Referral & Invite System
+- 📱 AdMob Integration (Banner, Interstitial & Rewarded Ads)
+- 📊 Firestore Backend Integration
 
-📱 AdMob Integration (Banner, Interstitial & Rewarded Ads)
+---
 
-📊 Firestore Backend Integration
+## 🧰 Requirements
 
-🧰 Requirements
-Flutter SDK: >=3.29.1
+- Flutter SDK: `>=3.29.1`
+- Dart: `>=3.7.0`
+- Android SDK: API Level 35 (Min SDK 21)
+- Firebase Project (with Firestore, Auth, and AdMob)
 
-Dart: >=3.7.0
+---
 
-Android SDK: API Level 35 (Min SDK 21)
+## 🛠️ Setup Instructions
 
-Firebase Project (with Firestore, Auth, and AdMob)
+### 1. 🔧 Flutter Setup
 
-🛠️ Setup Instructions
-1. 🔧 Flutter Setup
 Ensure Flutter and Dart are installed:
 
-bash
-Copy
-Edit
+```bash
 flutter --version
-Download dependencies:
-
-bash
-Copy
-Edit
-flutter pub get
-2. 🔥 Firebase Setup
-Go to Firebase Console
-
-Create a new Firebase Project
-
-Add an Android app
-
-Package name: com.example.spin_to_earn (or modify as per your app)
-
-Download google-services.json
-
-Place it in:
-
-bash
-Copy
-Edit
-android/app/google-services.json
-👉 Use the included google-services.json.example for guidance.
-
-3. 📢 AdMob Configuration (Optional)
-To show real ads:
-
-Visit Google AdMob
-
-Create ad units for:
-
-Banner
-
-Interstitial
-
-Rewarded Video
-
-Replace test ad unit IDs in:
-
-bash
-Copy
-Edit
-lib/services/ad_service.dart
-4. ▶️ Run the App
-Use the following command:
-
-bash
-Copy
-Edit
-flutter run
-Ensure an emulator or physical device is connected.
-
-📁 Project Structure
-bash
-Copy
-Edit
-lib/
-│
-├── main.dart              # Entry point
-├── screens/               # UI Screens (Home, Auth, Wallet, Spin, etc.)
-├── providers/             # App State Management
-├── services/              # Firebase, Auth, AdMob Services
-├── models/                # User & App Data Models
-└── widgets/               # Reusable Widgets (Buttons, Cards, etc.)
-🔐 Notes
-Sensitive files (like google-services.json) are excluded from the repository.
-
-You must set up Firebase & AdMob for full functionality.
-
-Designed as a template/demo for learning or further development.
-
-Ensure Firebase rules are secure for production deployment.
-
-📜 License
-This project is licensed under the MIT License.
-Feel free to fork, modify, and contribute!
